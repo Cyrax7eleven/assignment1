@@ -302,7 +302,12 @@ footer p{
     transform:translateY(-4px) scale(1.05);
 }
 
-
+.copyright{
+    text-align:center;
+    margin-top:18px;
+    font-size:13px;
+    opacity:.7;
+}
 /* all hover */
 
 a, button, .access, .play, .menu li, .cart1, .part21 {
