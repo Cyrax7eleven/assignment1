@@ -12,7 +12,7 @@
 }
 
 .navbar{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     justify-content: space-between;
     padding: 16px 24px 16px 120px;
@@ -49,7 +49,7 @@
 
 .part2{
     background: url(images/background.png); 
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -57,7 +57,7 @@
 }
 .part20{
     max-width: 1360px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0 auto;
         padding: 116px 120px 180px 120px;
 
@@ -70,7 +70,7 @@
     padding: 8px 12px 8px 0;
     width: fit-content;
     margin: 0 auto;
-    border-radius: 100px;
+    border-radius: 20px;
     margin-bottom: 16px;
     gap: 0px;
     height: 35px;
@@ -97,7 +97,7 @@
     color: #FFFFFF;
 }
 .part24{
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin-top: 32px;
     margin: 0 auto;
     display: flex;
@@ -111,8 +111,8 @@
     cursor: pointer;
 }
 .part24 .play{
-     background: transparent;   /* ⭐ main thing */
-    border: 1px solid #ffffff; /* white outline */
+    background: transparent;  
+    border: 1px solid #ffffff; 
     color: #ffffff;
 
     padding: 12px 20px;
@@ -127,4 +127,177 @@
 
 .part24 button img{
     width: 18px;
+}
+/* cart section */
+.cart11{
+    /* border: 1px solid red; */
+    align-items: center;
+    text-align: center;
+}
+.cart11 h1{
+    margin-bottom: 16px;
+    font-size: 48px;
+}
+.cart11 p{
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+.cart1 p{
+    margin-top: 16px;
+    color: #627382;
+}
+/* real cart section */
+
+.real-cart{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.cart1{
+    width: 322px;
+    padding: 84px 24px 70px 24px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.145);
+
+}
+.cart1 img{
+    width: 60px 60px;
+}
+
+/* design section */
+
+.design-section {
+    /* border: 1px solid red; */
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 120px 50px 120px 120px;
+    display: flex;
+    gap: 60px;
+}
+.design-section img{
+    max-width: 600px;
+}
+.design-info{
+    width: 800px;
+    /* border: 1px solid red; */
+    padding: 102px 0px 102px 9px ;
+
+}
+.design-info img{
+    width: 16.25px;
+}
+.design-info p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+    line-height: 20px;
+    margin-bottom: 18px;
+}
+.design-info h1{
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+.design-info p{
+    color: #627382;
+}
+.design-info ul{
+  list-style: none;    
+  padding: 0;
+  margin: 16px 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;           
+}
+
+.design-info ul li{
+  display: flex;
+  align-items: center;  
+  gap: 10px;            
+  font-size: 13px;      
+  line-height: 1.4;
+  color: #111827;
+}
+
+/* icon size */
+.design-info ul li img{
+  width: 14px;
+  height: 14px;
+  flex: 0 0 14px;      
+}
+
+footer{
+    /* border: 1px solid red; */
+    margin-top: 120px;
+    max-width: 1360px;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    text-align: center;
+    margin: 0 auto;
+}
+footer h1{
+    margin-bottom: 16px;
+}
+footer p{
+    margin-bottom: 24px;
+}
+footer .access {
+    margin-bottom: 16px;
+    width: 300px;
+    font-size: 16px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+footer p{
+    color: #627382;
+}
+
+/* all hover */
+
+a, button, .access, .play, .menu li, .cart1, .part21 {
+  transition: 0.25s ease;
+}
+
+
+.menu li:hover{
+  color: #469165;
+  transform: translateY(-1px);
+}
+
+
+.access{
+  cursor: pointer;
+}
+
+.access:hover{
+  background-color: #3a7c57;  
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
+}
+
+
+.play:hover{
+  background: rgba(255,255,255,0.12);
+  transform: translateY(-2px);
+}
+
+
+.part21:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+
+.cart1:hover{
+  transform: translateY(-6px);
+  box-shadow: 0 14px 34px rgba(0,0,0,0.14);
+}
+
+.cart1:hover h1{
+  color: #469165;
+}
+
+footer .access:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.12);
 }
