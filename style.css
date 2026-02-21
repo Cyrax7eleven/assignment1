@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+
+}
+
+.navbar{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 24px 16px 120px;
+    align-items: center;
+}
+
+.navbar img{
+    max-width: 139px;
+    cursor: pointer;
+}
+
+.menu{
+    max-width: 365px;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    cursor: pointer;
+}
+.menu li{
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.access{
+    border: 0px;
+    background-color: #469165;
+    padding: 12.5px 16px;
+    border-radius: 5px;
+    color: white;
+}
+/* part 2 */
+
+.part2{
+    background: url(images/background.png); 
+    border: 1px solid red;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 116px 120px 180px 120px;
+}
+.part20{
+    max-width: 1360px;
+    border: 1px solid red;
+    margin: 0 auto;
+        padding: 116px 120px 180px 120px;
+
+}
+.part21{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#FFFFFF;
+    padding: 8px 12px 8px 0;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 100px;
+    margin-bottom: 16px;
+    gap: 0px;
+    height: 35px;
+}
+.part21 img{
+    width: 16px;
+    height: 16px;
+}
+.part21 h3{
+    font-size: 16px;
+    color: #469165;
+}
+/* part22 */
+
+.part22 h1{
+    font-size: 72px;
+    color: white;
+}
+.part22 .text{
+    color: #30B868;
+}
+.part23 p{
+    margin-top: 16px;
+    color: #FFFFFF;
+}
+.part24{
+    border: 1px solid red;
+    margin-top: 32px;
+    margin: 0 auto;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+}
+.part24 .access{
+    width: fit-content;
+    cursor: pointer;
+}
+.part24 .play{
+     background: transparent;   /* ⭐ main thing */
+    border: 1px solid #ffffff; /* white outline */
+    color: #ffffff;
+
+    padding: 12px 20px;
+    border-radius: 6px;
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    cursor: pointer;
+}
+
+.part24 button img{
+    width: 18px;
+}
